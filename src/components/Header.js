@@ -35,7 +35,7 @@ class Header extends Component {
     }, (props, prevProp) => true);
 
     return (
-      <header id="home" style={{ height: window.innerHeight - 140, display: 'block' }}>
+      <header id="home" style={{ height: window.innerHeight, display: 'block' }}>
         <div className="row aligner" style={{height: '100%'}}>
           <div className="col-md-12">
             <div>
@@ -50,8 +50,8 @@ class Header extends Component {
               <Switch
                 checked={this.state.checked}
                 onChange={this.onThemeSwitchChange}
-                offColor="#baaa80"
-                onColor="#353535"
+                offColor="#545B5A" // where to set background of color toggle
+                onColor="#E9ECE6"
                 className="react-switch mx-auto"
                 width={90}
                 height={40}
