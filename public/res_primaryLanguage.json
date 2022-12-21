@@ -1,7 +1,7 @@
 {
     "basic_info": {
       "description_header": "Hi",
-      "description": "Hello! I'm Maria - a curious college student with the skills of a frontend developer with the mindset of a human-centered designer :) In addition to coding, I love being part of the design process as well - finding needs for users or clients, engaging in brainstorm sessions to try to come up with ideas to best suit them, and prototyping (whether it be physical, digital, or experiential) are all things I'm excited about! Thanks for checking out my website and feel free to see some of my projects below. ",
+      "description": "Hello! I'm Maria - a curious college student with the skills of a developer and the mindset of a human-centered designer. In addition to coding, I love being part of the design process as well - finding needs for users or clients, engaging in brainstorm sessions to try to come up with ideas to best suit them, and prototyping (whether it be physical, digital, or experiential) are all things I'm excited about! Thanks for checking out my website and feel free to see some of my projects below. ",
       "section_name": {
         "about": "About Me",
         "projects": "Projects",
@@ -12,37 +12,12 @@
     "projects": [
       {
         "title": "Pine Beetle",
-        "startDate": "2020",
-        "description": "The most expanded application I had opportunity to work with. I've learned many technologies and my code was reviewed by awesome curator. Application handles all adoption processess and allows to store all evidence on adopting animals from animal shelter.",
+        "startDate": "2021",
+        "description": "Worked as a developer for this tool, currently used by the USFS, which predicts Southern Pine Beetle outbreaks in the southern United States. Developed graph and map visualizations for historical outbreak data and predictoins.",
         "images": [
-          "images/portfolio/animal-shelter/p1.jpg",
-          "images/portfolio/animal-shelter/p2.jpg"
+          "images/portfolio/pinebeetle/p1.jpg"
         ],
         "url": "",
-        "technologies": [
-          {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
-          },
-          {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
-          },
-          {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
-          }
-        ]
-      },
-      {
-        "title": "Bayes EM",
-        "startDate": "2018",
-        "description": "Personal project for study subject. I was responsible for testing photography application that optimizes images with popular algorithms used by graphic editors like Pixlr or Adobe Photoshop. I've earned A grade :)",
-        "images": [
-          "images/portfolio/photography/p1.jpg",
-          "images/portfolio/photography/p2.jpg"
-        ],
-        "url": "https://github.com",
         "technologies": [
           {
             "class": "devicon-react-original",
@@ -55,63 +30,99 @@
         ]
       },
       {
-        "title": "Rosebush",
-        "startDate": "2015",
-        "description": "One of the first apps I was working on my internship. I had to develop front-end implementation for app that shows 3D models of known buildings. This was also my first project in Angular framework. I've learned a lot!",
+        "title": "Bayes EM",
+        "startDate": "2022",
+        "description": "Worked as a UI/UX designer as part of a small project team at the Dartmouth DALI Lab. BayesEM is an app which uses Bayesian statistical analysis of past patient diagnosis data to assist doctors in making medical diagnosis.",
         "images": [
-          "images/portfolio/adventure/p1.jpg",
-          "images/portfolio/adventure/p2.jpg"
+          "images/portfolio/bayes/p1.jpg"
+        ],
+        "url": "https://github.com",
+        "technologies": [
+          {
+            "class": "devicon-react-original",
+            "name": "Figma"
+          }
+        ]
+      },
+      {
+        "title": "Rosebush",
+        "startDate": "2022",
+        "description": "Designed a mobile app to help users complete a 'Rose Bud Thorn' activity every day to help them practice finding gratitude and fulfillment. Designs done in a small project team using Figma. Part of Intro to UI/UX Design at Dartmouth College.",
+        "images": [
+          "images/portfolio/rosebush/p1.jpg"
         ],
         "url": "https://github.com",
         "technologies": [
           {
             "class": "devicon-angularjs-plain",
-            "name": "Angular"
-          },
-          {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
-          },
-          {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
+            "name": "Figma"
           }
         ]
       }
     ],
     "experience": [
       {
-        "company": "DefOpenSource",
-        "title": "Front-End Developer",
-        "years": "10.2019 - present",
+        "company": "FIRST Robotics Competition",
+        "title": "Robotics Software Developer",
+        "years": "01.2015 - 06.2020",
         "mainTech": [
-          "Angular 8/9/10"
+          "Java"
         ],
         "technologies": [
-          "REST API",
-          "RxJS",
-          "JavaScript",
-          "Bootstrap",
-          "MDBootstrap",
-          "EF Core",
-          ".NET Core",
-          "SignalR",
-          "Angular Material"
+          "WPILib"
         ]
       },
       {
-        "company": "Serros Solutions",
-        "title": "Intern",
+        "company": "Tufts University",
+        "title": "Robotics and AR Lab Intern",
         "years": "01.2018 - 09.2019",
         "mainTech": [
-          "Angular 7/8"
+          "Python"
         ],
         "technologies": [
-          "RxJS",
-          "Django",
-          "PHP",
-          "JavaScript",
-          "DHTMLX Gantt"
+          "Robot Operating System",
+          "CMake",
+          "Linux"
+        ]
+      },
+      {
+        "company": "Vitalize Inc",
+        "title": "Software Developer Intern",
+        "years": "06.2021 - 09.2021",
+        "mainTech": [
+          "React.js"
+        ],
+        "technologies": [
+          "MongoDB",
+          "Python",
+          "React Native"
+        ]
+      },
+      {
+        "company": "DALI Lab, Dartmouth College",
+        "title": "Software Developer, UI/UX Designer",
+        "years": "09.2021 - present",
+        "mainTech": [
+          "Javascript",
+          "Figma"
+        ],
+        "technologies": [
+          "React.js",
+          "HTML/CSS"
+        ]
+      },
+      {
+        "company": "Johns Hopkins Applied Physics Lab",
+        "title": "Software Engineer Intern",
+        "years": "03.2022 - 06.2022",
+        "mainTech": [
+          "React.js",
+          "Python"
+        ],
+        "technologies": [
+          "Vue.js",
+          "MongoDB",
+          "Docker"
         ]
       }
     ]
