@@ -40,7 +40,7 @@ body[data-theme="dark"] {
    }
 
    #about {
-      background-color: #7f7f7f;
+      background-color: #16191b;
       h1 span {
          color: white;
       }
@@ -50,6 +50,9 @@ body[data-theme="dark"] {
       .card {
          background: #545B5A;
          color: white;
+      }
+      .about-text{
+         color: #E9ECE6;
       }
    }
 
@@ -68,7 +71,7 @@ body[data-theme="dark"] {
 
    #resume {
       filter: brightness(80%);
-      background: #5b5b5b;
+      background: #545B5A;
       .section-title {
          color: white !important;
       }
